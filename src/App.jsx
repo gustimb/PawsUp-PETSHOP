@@ -17,8 +17,8 @@ const App = () => {
           <Route path='/item/:itemId' element={<ItemDetailContainer />}></Route>
         </Routes>
       </BrowserRouter>
-    </div>
 
+    </div>
   )
 }
 export default App

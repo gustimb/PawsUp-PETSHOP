@@ -8,6 +8,7 @@ header {
     display: flex;
     background-color: #ffde59;
     height: auto;
+    border-bottom: solid black 4px;
 }
 
 #basic-navbar-nav {
@@ -59,18 +60,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
 
 .contenedorProducto {
-
     margin: 40px 20px 0 20px;
     width: 250px;
     height: 350px;
     text-align: center;
-
-
-
 }
 
 .imgProducto{
@@ -79,8 +75,6 @@ header {
     border-right: solid black 4px;
     border-left: solid black 4px;
     border-radius: 25px 25px 0 0;
-
-
 }
 
 .dataProducto{
@@ -93,7 +87,6 @@ header {
 .nombreProducto{
     font-size: 1rem;
     font-weight: bolder;
-
 }
 
 .botonDetalles{
@@ -103,12 +96,21 @@ header {
     border-radius: 10px;
 }
 
-
 .contenedorDetalle{
-    background-color: lightblue;
-    height: 80vh;
+    display: flex;
 }
 
 .imgDetalle{
-    width: 300px;
+    width: 450px;
+    margin: 50px 20px;
+    border: solid black 4px;
+    border-radius: 25px;
+}
+
+.textoDetalle{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
 }

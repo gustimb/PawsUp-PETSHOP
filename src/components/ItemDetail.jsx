@@ -2,11 +2,12 @@ const DetalleProducto = (item) => {
 
     return (
         <div className="contenedorDetalle">
-            
-
-            <h1>DETALLES DEL PRODUCTO</h1>
             <img className="imgDetalle" src={item.datos.image} alt={item.datos.title} />
-            <h5 className="nombreProducto"> {item.datos.name}</h5>
+            <div className="textoDetalle">
+                <h2 className="nombreProducto"> {item.datos.name}</h2>                
+                <p className="textoDescripcion"> Descripción: {item.datos.description }</p>
+                <p className="textoPrecio"> Precio: $ {item.datos.price}  </p>
+            </div>
         </div>
     )
 }

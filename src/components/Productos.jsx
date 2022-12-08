@@ -7,7 +7,8 @@ const Productos = (props) => {
                 props.datos.map(item => (
                     <CardProducto
                         key={item.id}
-                        title={item.name}
+                        id={item.id}
+                        name={item.name}
                         image={item.image[0]}
                     />
                 ))
