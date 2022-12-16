@@ -28,6 +28,10 @@ header {
     background-color: #ffde59 !important
 }
 
+.NavBarLogo{
+    width: 200px;
+}
+
 .nav-link {
     margin: 0px 20px;
 }
