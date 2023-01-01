@@ -1,6 +1,7 @@
 import CardProducto from './CardProducto';
 
 const Productos = (props) => {
+
     return (
         <div className='contenedor'>
             {
@@ -10,6 +11,7 @@ const Productos = (props) => {
                         id={item.id}
                         name={item.name}
                         image={item.image[0]}
+                        stock= {item.stock}
                     />
                 ))
             }
