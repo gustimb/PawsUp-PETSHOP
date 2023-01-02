@@ -1,6 +1,6 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import CartWidget from './CartWidget';
+import CardWidget from './CardWidget';
 import { Link } from 'react-router-dom';
 
 const BsNavbar = () => {
@@ -17,8 +17,8 @@ const BsNavbar = () => {
                         <Nav.Link as={Link} to="/category/4">Salud</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar >            
-            <Link to={'/cart'}><CartWidget/></Link>
+            </Navbar>
+            <CardWidget />
         </header>
     )
 }
