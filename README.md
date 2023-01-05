@@ -1,5 +1,7 @@
 # PawsUp 🐾
 
+![GIF-REACT](https://user-images.githubusercontent.com/105659333/210286823-b9cdbc6a-a335-4e1f-baf6-2c847e8a1f4e.gif)
+
 Proyecto e-commerce (petshop) desarrollado en React Js.
 Entrega final del curso dictado por Coderhouse.
 
