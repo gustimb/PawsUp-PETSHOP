@@ -1,4 +1,3 @@
-import { FiShoppingCart } from 'react-icons/Fi';
 import { useContext } from 'react';
 import { CartContext } from './CartContext';
 
@@ -6,13 +5,15 @@ const CardWidget = () => {
 
     const { sumaitemsEnCarrito } = useContext(CartContext);
     return (
-        <div id="CarritoNavbar">
-            <FiShoppingCart />
+        <div id="CarritoNavbar">            
+            <span>
+            🛒
+            </span>
             {
                 sumaitemsEnCarrito() > 0
                     ? sumaitemsEnCarrito()
                     : ""
-            }
+            }            
         </div>
     )
 }
