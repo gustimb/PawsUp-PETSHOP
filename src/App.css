@@ -48,8 +48,12 @@ ul {
     background-color: #ffde59 !important
 }
 
+.navbar-brand {
+    margin: 0;
+}
+
 .NavBarLogo {
-    width: 200px;
+    width: 190px;
 }
 
 .nav-link {
@@ -74,12 +78,17 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 #CarritoNavbar:hover {
     background-color: whitesmoke;
     transition: all ease-in-out 400ms;
     border-radius: 50px;
+}
+
+.imgCarrito {
+    width: 25px;
 }
 
 .contenedor {
