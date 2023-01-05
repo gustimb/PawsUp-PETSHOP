@@ -1,4 +1,4 @@
-import { FiShoppingCart } from '/react-icons/Fi';
+import { FiShoppingCart } from 'react-icons/Fi';
 
 const CardWidget = () => {
     return (
