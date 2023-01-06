@@ -96,6 +96,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     min-height: 80vh;
+    margin: 0 auto;
 }
 
 .contenedorProducto {
